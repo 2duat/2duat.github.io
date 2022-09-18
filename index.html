@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0024)http://ylgy.lbbb.cc/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>萝卜牌涮羊肉~</title>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/axios/0.18.0/axios.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.12.0/js/md5.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+      <script src="js/layer.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css" integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js" integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/oneui.css">
+    <img style="background: linear-gradient(to bottom,#104E8B,#9FB6CD);" class="full-bg full-bg-bottom" ondragstart="return false;" oncontextmenu="return false;">
+
+<script>
+swal({
+    title: "重要通知",
+    text: "本工具完全免费,如果你是花钱买来的说明你被骗了！请去退款",
+    type: "warning",
+    confirmButtonText: "我知道了"
+});
+</script><div class="sweet-overlay" tabindex="-1" style="opacity: -0.02; display: none;"></div><div class="sweet-alert hideSweetAlert" data-custom-class="" data-has-cancel-button="false" data-has-confirm-button="true" data-allow-outside-click="false" data-has-done-function="false" data-animation="pop" data-timer="null" style="display: none; margin-top: -170px; opacity: -0.01;"><div class="sa-icon sa-error" style="display: none;">
+      <span class="sa-x-mark">
+        <span class="sa-line sa-left"></span>
+        <span class="sa-line sa-right"></span>
+      </span>
+    </div><div class="sa-icon sa-warning" style="display: block;">
+      <span class="sa-body"></span>
+      <span class="sa-dot"></span>
+    </div><div class="sa-icon sa-info" style="display: none;"></div><div class="sa-icon sa-success" style="display: none;">
+      <span class="sa-line sa-tip"></span>
+      <span class="sa-line sa-long"></span>
+
+      <div class="sa-placeholder"></div>
+      <div class="sa-fix"></div>
+    </div><div class="sa-icon sa-custom" style="display: none;"></div><h2>重要通知</h2>
+    <p style="display: block;">本工具完全免费,如果你是花钱买来的说明你被骗了！请去退款</p>
+    <fieldset>
+      <input type="text" tabindex="3" placeholder="">
+      <div class="sa-input-error"></div>
+    </fieldset><div class="sa-error-container">
+      <div class="icon">!</div>
+      <p>Not valid!</p>
+    </div><div class="sa-button-container">
+      <button class="cancel" tabindex="2" style="display: none;">Cancel</button>
+      <div class="sa-confirm-button-container">
+        <button class="confirm" tabindex="1" style="display: inline-block; background-color: rgb(140, 212, 245); box-shadow: rgba(140, 212, 245, 0.8) 0px 0px 2px, rgba(0, 0, 0, 0.05) 0px 0px 0px 1px inset;">我知道了</button><div class="la-ball-fall">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div></div>
+
+
+
+    <br>
+    <div class="container">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 center-block" style="float: none;">
+    <div class="panel panel-primary">
+        <div class="panel-heading" style="text-align: center;"><h3 class="panel-title">
+            萝卜牌涮羊肉~</h3>
+        </div>
+        <div class="panel-body" style="text-align: center;">
+				<h3 class="panel-title" style="color:red">
+            本工具完全免费QQ群330314602！</h3>
+            <div class="list-group">
+
+            <div class="list-group-item">
+                                    <div class="form-group">
+                <div class="input-group"><div class="input-group-addon">Token</div>
+                <input type="text" id="uin" value="" class="form-control">
+                </div></div>
+                <div class="form-group">
+                <div class="input-group"><div class="input-group-addon">通关次数</div>
+                <input id="num" value="100" oninput="value=value.replace(/[^\d]/g,&#39;&#39;);if(value&gt;500000)value=500000" class="form-control">
+               
+                </div></div>
+                 <div class="form-group">
+                    <div class="input-group"><div class="input-group-addon">通关时间(秒)</div>
+                <input id="tgtime" value="20" oninput="value=value.replace(/[^\d]/g,&#39;&#39;);if(value&gt;300)value=300" class="form-control">
+               
+                </div></div>
+                
+               </div>
+    <label class="mdui-radio">
+    <input type="radio" name="zan" value="1" checked="">
+    <i class="mdui-radio-icon"></i>
+<a style="color:#ff88c2">羊圈</a>
+  </label>
+       <label class="mdui-radio">
+    <input type="radio" name="zan" value="2">
+    <i class="mdui-radio-icon"></i>
+<a style="color:#ff88c2">话题</a>
+  </label>
+  <hr>
+                <button type="button" id="submit" class="mdui-btn mdui-btn-block mdui-color-blue-100 mdui-ripple mdui-btn-raised">立即通关</button>
+                <div id="load" class="alert alert-info" style="display:none;"></div>
+               <hr>
+                           <div class="mdui-table-fluid" id="liebiao">
+<textarea id="log" class="form-control" rows="10" readonly="">本工具完全免费,花钱买来代表被骗!顺便关注一下公众号：萝卜哔哔。谢谢</textarea>
+    </div>
+                </div>
+                <div id="load" class="alert alert-info" style="display:none;"></div>
+            </div>
+            <center><h1><a href="t.html" target="_blank" style="color:red">获取Token点我！不用抓包！</a></h1></center>
+            <center><h1>本站仅供娱乐，后果自负</h1></center>
+							               
+
+    </div>
+    </div>
+        <div class="modal fade" id="hqid">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">友情赞助</h4>
+                </div>
+                <div class="panel-body">
+           <img src="img/zz.png" style="width:100%;height:100%">
+            </div>
+         
+                <div class="modal-footer"> <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button> </div>
+            </div>
+        </div>
+    </div>
+    </div>
+ 
+    
+<script src="js/ajax.js">
+    
+</script>
+
+<div class="mpa-sc mpa-plugin-article-gatherer mpa-new mpa-rootsc" data-z="100" style="display: block;" id="mpa-rootsc-article-gatherer"></div><div class="mpa-sc mpa-plugin-image-gatherer mpa-new mpa-rootsc" data-z="100" style="display: block;" id="mpa-rootsc-image-gatherer"></div><div class="mpa-sc mpa-plugin-page-clipper mpa-new mpa-rootsc" data-z="100" style="display: block;" id="mpa-rootsc-page-clipper"></div><div class="mpa-sc mpa-plugin-text-gatherer mpa-new mpa-rootsc" data-z="100" style="display: block;" id="mpa-rootsc-text-gatherer"></div><div class="mpa-sc mpa-plugin-video-gatherer mpa-new mpa-rootsc" data-z="100" style="display: block;" id="mpa-rootsc-video-gatherer"></div><div class="mpa-sc mpa-plugin-side-function-panel mpa-new mpa-rootsc" data-z="110" style="display: block;" id="mpa-rootsc-side-function-panel"></div><div class="mpa-sc mpa-plugin-notifier mpa-new mpa-rootsc" data-z="120" style="display: block;" id="mpa-rootsc-notifier"></div><div class="mpa-sc mpa-plugin-notification-manager mpa-new mpa-rootsc" data-z="130" style="display: block;" id="mpa-rootsc-notification-manager"></div></body></html>
